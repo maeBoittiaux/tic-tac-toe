@@ -1,5 +1,6 @@
 import { useState } from 'react';
 
+/* The individual sqaures of the grid */
 function Square({ value, onSquareClick }) {
   return (
     <button className="square" onClick={onSquareClick}>
